@@ -1,0 +1,8 @@
+{
+  "Hawaii": {-5},
+	"Pacific": {-2},
+	"Mountain": {-1},
+	"Central": {0},
+	"Eastern": {1},
+	"Australia": {16}
+  }
