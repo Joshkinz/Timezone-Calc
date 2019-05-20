@@ -2,25 +2,17 @@ import discord.py
 from discord.ext import commands
 from discord.ext.commands import Bot
 import asyncio
-
-mode = "Daylight"
+import json
+import time
 
 bot = Bot(command_prefix="+")
 
-times = {
-  "Hawaii": 0,
-  "Pacific-Daylight": 3,
-  "Mountain-Daylight": 4,
-  "Central-Daylight": 5,
-  "Eastern-Daylight": 6,
-  "Pacific-Standard": 2,
-  "Mountain-Standard": 3,
-  "Central-Standard": 4,
-  "Eastern-Standard": 5,
-  "Australia": 21
-  }
-
-# !time <time> <am/pm> <user>
+with open('times.json') as file:
+	times = json.load(file)
+with open('users.json') as file:
+	users = json.load(file)
+with open('settings.json') as file:
+	settings = json.load(file)
 
 @bot.event
 async def on_ready():
@@ -29,6 +21,10 @@ async def on_ready():
 	print(bot.user.id)
 	print('------')
   
+# +time <user>
+
 @bot.command(name="time", pass_context = True)
-async def _attack(ctx, time, ampm, user):
+async def _attack(ctx, user): #ctx.message.author.name
+	new-time = time.ctime(time.time() + (times[str(user)]*3600))
+	await bot.say("
   
