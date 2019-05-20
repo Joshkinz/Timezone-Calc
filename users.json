@@ -1,5 +1,5 @@
 {
-	"Arq": {
+	"arq": {
 		"Zone": "Hawaii"
 	},
 	
@@ -7,15 +7,15 @@
 		"Zone": "Hawaii"
 	},
 
-	"Phantom": {
+	"phantom": {
 		"Zone": "Pacific"
 	},
 
-	"Devinthunder": {
+	"devinthunder": {
 		"Zone": "Pacific"
 	},
 
-	"KingHaynes": {
+	"kinghaynes": {
 		"Zone": "Pacific"
 	},
 
@@ -23,11 +23,11 @@
 		"Zone": "Mountain"
 	},
 
-	"Kyler": {
+	"kyler": {
 		"Zone": "Mountain"
 	},
 
-	"Joshkinz": {
+	"joshkinz": {
 		"Zone": "Central"
 	},
 
@@ -35,19 +35,19 @@
 		"Zone": "Central"
 	},
 
-	"Asian Trash": {
+	"asian trash": {
 		"Zone": "Eastern"
 	},
 
-	"Crying": {
+	"crying": {
 		"Zone": "Eastern"
 	},
 
-	"Jamsterbuggy": {
+	"jamsterbuggy": {
 		"Zone": "Eastern"
 	},
 
-	"Qlonever": {
+	"qlonever": {
 		"Zone": "Eastern"
 	},
 
@@ -55,11 +55,11 @@
 		"Zone": "Eastern"
 	},
 
-	"artlessUser": {
+	"artlessuser": {
 		"Zone": "Eastern"
 	},
 
-	"Swiggle": {
+	"swiggle": {
 		"Zone": "Eastern"
 	},
 
@@ -67,7 +67,7 @@
 		"Zone": "Eastern"
 	},
 
-	"Maxop333": {
+	"maxop333": {
 		"Zone": "Australia"
 	}
   }
