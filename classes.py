@@ -37,4 +37,6 @@ class Names:
 					return "shadowjoe323"
 				if name == "max":
 					return "maxop333"
+			if name in nameList:
+				return name
                   
