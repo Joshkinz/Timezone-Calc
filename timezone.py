@@ -26,8 +26,8 @@ async def on_ready():
 
 @bot.command(name="time", pass_context = True)
 async def _attack(ctx, user): #ctx.message.author.name
-	name = classes.nameCheck(name)
-	new-time = time.ctime(time.time() + (times[str(user)]*3600))
+	name = classes.nameCheck(user)
+	new-time = time.ctime(time.time() + (times[users[str(user)]["Zone"]]*3600))
 	await bot.say("The current time for " + name + " is " + new-time + ".")
   
 bot.run(--bot code goes here--)
